@@ -1,0 +1,187 @@
+/*
+LESS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: @icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+@icon-home: x y offset_x offset_y width height total_width total_height image_path name;
+
+At the bottom of this section, we provide information about the spritesheet itself
+@spritesheet: width height image @spritesheet-sprites;
+*/
+@sprite-error-name: 'sprite-error';
+@sprite-error-x: 0px;
+@sprite-error-y: 280px;
+@sprite-error-offset-x: 0px;
+@sprite-error-offset-y: -280px;
+@sprite-error-width: 60px;
+@sprite-error-height: 60px;
+@sprite-error-total-width: 410px;
+@sprite-error-total-height: 340px;
+@sprite-error-image: '../../images/sprite-images/sprite.png';
+@sprite-error: 0px 280px 0px -280px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-error';
+@sprite-point1-name: 'sprite-point1';
+@sprite-point1-x: 70px;
+@sprite-point1-y: 280px;
+@sprite-point1-offset-x: -70px;
+@sprite-point1-offset-y: -280px;
+@sprite-point1-width: 60px;
+@sprite-point1-height: 60px;
+@sprite-point1-total-width: 410px;
+@sprite-point1-total-height: 340px;
+@sprite-point1-image: '../../images/sprite-images/sprite.png';
+@sprite-point1: 70px 280px -70px -280px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-point1';
+@sprite-point2-name: 'sprite-point2';
+@sprite-point2-x: 140px;
+@sprite-point2-y: 280px;
+@sprite-point2-offset-x: -140px;
+@sprite-point2-offset-y: -280px;
+@sprite-point2-width: 60px;
+@sprite-point2-height: 60px;
+@sprite-point2-total-width: 410px;
+@sprite-point2-total-height: 340px;
+@sprite-point2-image: '../../images/sprite-images/sprite.png';
+@sprite-point2: 140px 280px -140px -280px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-point2';
+@sprite-stp1-name: 'sprite-stp1';
+@sprite-stp1-x: 210px;
+@sprite-stp1-y: 280px;
+@sprite-stp1-offset-x: -210px;
+@sprite-stp1-offset-y: -280px;
+@sprite-stp1-width: 60px;
+@sprite-stp1-height: 60px;
+@sprite-stp1-total-width: 410px;
+@sprite-stp1-total-height: 340px;
+@sprite-stp1-image: '../../images/sprite-images/sprite.png';
+@sprite-stp1: 210px 280px -210px -280px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-stp1';
+@sprite-stp2-name: 'sprite-stp2';
+@sprite-stp2-x: 280px;
+@sprite-stp2-y: 280px;
+@sprite-stp2-offset-x: -280px;
+@sprite-stp2-offset-y: -280px;
+@sprite-stp2-width: 60px;
+@sprite-stp2-height: 60px;
+@sprite-stp2-total-width: 410px;
+@sprite-stp2-total-height: 340px;
+@sprite-stp2-image: '../../images/sprite-images/sprite.png';
+@sprite-stp2: 280px 280px -280px -280px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-stp2';
+@sprite-stp3-name: 'sprite-stp3';
+@sprite-stp3-x: 350px;
+@sprite-stp3-y: 0px;
+@sprite-stp3-offset-x: -350px;
+@sprite-stp3-offset-y: 0px;
+@sprite-stp3-width: 60px;
+@sprite-stp3-height: 60px;
+@sprite-stp3-total-width: 410px;
+@sprite-stp3-total-height: 340px;
+@sprite-stp3-image: '../../images/sprite-images/sprite.png';
+@sprite-stp3: 350px 0px -350px 0px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-stp3';
+@sprite-success-name: 'sprite-success';
+@sprite-success-x: 350px;
+@sprite-success-y: 70px;
+@sprite-success-offset-x: -350px;
+@sprite-success-offset-y: -70px;
+@sprite-success-width: 60px;
+@sprite-success-height: 60px;
+@sprite-success-total-width: 410px;
+@sprite-success-total-height: 340px;
+@sprite-success-image: '../../images/sprite-images/sprite.png';
+@sprite-success: 350px 70px -350px -70px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-success';
+@sprite-tip-name: 'sprite-tip';
+@sprite-tip-x: 350px;
+@sprite-tip-y: 140px;
+@sprite-tip-offset-x: -350px;
+@sprite-tip-offset-y: -140px;
+@sprite-tip-width: 60px;
+@sprite-tip-height: 60px;
+@sprite-tip-total-width: 410px;
+@sprite-tip-total-height: 340px;
+@sprite-tip-image: '../../images/sprite-images/sprite.png';
+@sprite-tip: 350px 140px -350px -140px 60px 60px 410px 340px '../../images/sprite-images/sprite.png' 'sprite-tip';
+@sprite-name: 'sprite';
+@sprite-x: 0px;
+@sprite-y: 0px;
+@sprite-offset-x: 0px;
+@sprite-offset-y: 0px;
+@sprite-width: 340px;
+@sprite-height: 270px;
+@sprite-total-width: 410px;
+@sprite-total-height: 340px;
+@sprite-image: '../../images/sprite-images/sprite.png';
+@sprite: 0px 0px 0px 0px 340px 270px 410px 340px '../../images/sprite-images/sprite.png' 'sprite';
+@spritesheet-width: 410px;
+@spritesheet-height: 340px;
+@spritesheet-image: '../../images/sprite-images/sprite.png';
+@spritesheet-sprites: @sprite-error @sprite-point1 @sprite-point2 @sprite-stp1 @sprite-stp2 @sprite-stp3 @sprite-success @sprite-tip @sprite;
+@spritesheet: 410px 340px '../../images/sprite-images/sprite.png' @spritesheet-sprites;
+
+/*
+The provided classes are intended to be used with the array-like variables
+
+.icon-home {
+  .sprite-width(@icon-home);
+}
+.icon-email {
+  .sprite(@icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.sprite-width(@sprite) {
+  width: extract(@sprite, 5);
+}
+
+.sprite-height(@sprite) {
+  height: extract(@sprite, 6);
+}
+
+.sprite-position(@sprite) {
+  @sprite-offset-x: extract(@sprite, 3);
+  @sprite-offset-y: extract(@sprite, 4);
+  background-position: @sprite-offset-x @sprite-offset-y;
+}
+
+.sprite-image(@sprite) {
+  @sprite-image: extract(@sprite, 9);
+  @sprite-image-bare: ~`"@{sprite-image}".slice(1, -1)`;
+  background-image: url(@sprite-image-bare);
+}
+
+.sprite(@sprite) {
+  .sprite-image(@sprite);
+  .sprite-position(@sprite);
+  .sprite-width(@sprite);
+  .sprite-height(@sprite);
+}
+
+/*
+The `.sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of LESS
+
+This must be run when you have at least 2 sprites.
+  If run with a single sprite, then there will be reference errors.
+
+.sprites(@spritesheet-sprites);
+*/
+.sprites(@sprites, @i: 1) when (@i <= length(@sprites)) {
+  @sprite: extract(@sprites, @i);
+  @sprite-name: e(extract(@sprite, 10));
+  .@{sprite-name} {
+    .sprite(@sprite);
+  }
+  .sprites(@sprites, @i + 1);
+}

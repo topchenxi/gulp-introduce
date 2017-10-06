@@ -1,11 +1,11 @@
 ### gulp-package-list
 
 
-[入门指南]()
+[入门指南](https://github.com/topchenxi/gulp-introduce/blob/master/mdFile/learn.md)
 
 [快速入门(官方)](http://www.gulpjs.com.cn/docs/getting-started/)
 
-[注意事项]()
+[注意事项](https://github.com/topchenxi/gulp-introduce/blob/master/mdFile/mind.md)
 
 列举一些常用的 gulp package
 

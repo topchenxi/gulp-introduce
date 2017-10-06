@@ -70,4 +70,7 @@
 
 #### 参考文献
 
-[Gulp 中文网](http://www.gulpjs.com.cn/)
+[gulp 中文网](http://www.gulpjs.com.cn/)
+[gulp 资料](https://github.com/Platform-CUF/use-gulp)
+[gulp 简体中文文档](https://github.com/lisposter/gulp-docs-zh-cn)
+[gulp 常用插件](https://zhuanlan.zhihu.com/p/25243171)

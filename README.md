@@ -29,9 +29,7 @@
 
 `run-sequence` -- 同步运行任务插件
 
-`del` -- 删除文件/文件夹
-
-`gulp-clean` -- 删除文件/文件夹
+`del` `gulp-clean` -- 删除文件/文件夹
 
 `gulp-jshint` -- `javasricpt` 代码检查
 
@@ -67,6 +65,30 @@
 
 `gulp-imagemin` && `gulp-tinypng` -- 图片压缩.
 
+`imagemin-pngquant`  -- 压缩png图片的插件.
+
+`gulp.spritesmith`  -- 合成sprite图片插件.
+
+`gulp-base64`  -- 图片转换成Base64编码.
+
+`browserify` -- 合并打包
+
+`browser-sync` -- 起服务，自动刷新
+
+`gulp-rev-collector` -- 给资源文件加时间戳(配合 `gulp-rev` 使用)
+
+`gulp-uncss` -- 清理多余无用css
+
+`gulp-changed` -- 只编译改动过的文件
+
+`gulp-postcss` -- css 后处理器
+
+`cssgrace` -- 生成兼容旧浏览器的各种 Hack(配合 `gulp-postcss` 使用)
+
+`gulp-replace` -- 替换文件内容
+
+`gulp-useref` -- js和css 资源进行合并输出(即html中js和css引入合并)
+
 
 #### 参考文献
 
@@ -74,3 +96,5 @@
 [gulp 资料](https://github.com/Platform-CUF/use-gulp)
 [gulp 简体中文文档](https://github.com/lisposter/gulp-docs-zh-cn)
 [gulp 常用插件](https://zhuanlan.zhihu.com/p/25243171)
+[gulp awesome](https://github.com/alferov/awesome-gulp)
+[gulp awesome cn](http://www.jianshu.com/p/df65ae89b862)
